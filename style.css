@@ -5,24 +5,24 @@
 
 /* ---------- CSS Custom Properties ---------- */
 :root {
-  --green-dark: #1a3a2a;
-  --green-deep: #122a1e;
-  --green-mid: #24503a;
+  --green-dark: #071b3b;
+  --green-deep: #04122a;
+  --green-mid: #0d2d56;
   --white: #ffffff;
-  --off-white: #f7f8f6;
-  --gray-light: #eef0ed;
-  --gray: #6b7270;
-  --gray-dark: #3a403d;
-  --gold: #c9a84c;
-  --gold-light: #d9bc6b;
-  --gold-dark: #a98a3a;
+  --off-white: #f5f8fb;
+  --gray-light: #f3f3f3;
+  --gray: #6b6b6b;
+  --gray-dark: #444444;
+  --gold: #fec43e;
+  --gold-light: #ffd166;
+  --gold-dark: #d4a017;
 
   --font-head: 'Playfair Display', serif;
   --font-body: 'Inter', sans-serif;
 
-  --shadow-sm: 0 4px 14px rgba(26, 58, 42, 0.08);
-  --shadow-md: 0 12px 34px rgba(26, 58, 42, 0.14);
-  --shadow-lg: 0 24px 60px rgba(26, 58, 42, 0.22);
+  --shadow-sm: 0 4px 14px rgba(7, 27, 59, 0.08);
+  --shadow-md: 0 12px 34px rgba(7, 27, 59, 0.14);
+  --shadow-lg: 0 24px 60px rgba(7, 27, 59, 0.22);
 
   --radius: 14px;
   --radius-lg: 24px;
@@ -148,7 +148,7 @@ h1, h2, h3, h4 {
 }
 
 .nav.scrolled {
-  background: rgba(26, 58, 42, 0.97);
+  background: rgba(7, 27, 59, 0.97);
   padding: 10px 0;
   box-shadow: 0 4px 24px rgba(0, 0, 0, 0.25);
   backdrop-filter: blur(10px);
@@ -179,7 +179,7 @@ h1, h2, h3, h4 {
   font-size: 1rem;
   letter-spacing: 0.02em;
   border-radius: 8px;
-  box-shadow: 0 4px 14px rgba(201, 168, 76, 0.4);
+  box-shadow: 0 4px 14px rgba(254, 196, 62, 0.4);
 }
 
 .logo-text {
@@ -309,9 +309,9 @@ h1, h2, h3, h4 {
   inset: 0;
   background: linear-gradient(
     180deg,
-    rgba(18, 42, 30, 0.72) 0%,
-    rgba(18, 42, 30, 0.55) 45%,
-    rgba(18, 42, 30, 0.82) 100%
+    rgba(4, 18, 42, 0.72) 0%,
+    rgba(4, 18, 42, 0.55) 45%,
+    rgba(4, 18, 42, 0.82) 100%
   );
 }
 
@@ -441,13 +441,13 @@ h1, h2, h3, h4 {
 .btn-gold {
   background: var(--gold);
   color: var(--green-dark);
-  box-shadow: 0 8px 24px rgba(201, 168, 76, 0.35);
+  box-shadow: 0 8px 24px rgba(254, 196, 62, 0.35);
 }
 
 .btn-gold:hover {
   background: var(--gold-light);
   transform: translateY(-3px);
-  box-shadow: 0 14px 32px rgba(201, 168, 76, 0.45);
+  box-shadow: 0 14px 32px rgba(254, 196, 62, 0.45);
 }
 
 .btn-ghost {
@@ -720,7 +720,7 @@ h1, h2, h3, h4 {
   right: -120px;
   width: 400px;
   height: 400px;
-  background: radial-gradient(circle, rgba(201, 168, 76, 0.12), transparent 70%);
+  background: radial-gradient(circle, rgba(254, 196, 62, 0.12), transparent 70%);
 }
 
 .benefits .section-title {
@@ -822,7 +822,7 @@ h1, h2, h3, h4 {
   left: -100px;
   width: 460px;
   height: 460px;
-  border: 2px solid rgba(201, 168, 76, 0.25);
+  border: 2px solid rgba(254, 196, 62, 0.25);
   border-radius: 50%;
 }
 
@@ -833,7 +833,7 @@ h1, h2, h3, h4 {
   left: -20px;
   width: 300px;
   height: 300px;
-  border: 2px solid rgba(201, 168, 76, 0.15);
+  border: 2px solid rgba(254, 196, 62, 0.15);
   border-radius: 50%;
 }
 
@@ -948,7 +948,7 @@ h1, h2, h3, h4 {
   outline: none;
   border-color: var(--gold);
   background: var(--white);
-  box-shadow: 0 0 0 4px rgba(201, 168, 76, 0.15);
+  box-shadow: 0 0 0 4px rgba(254, 196, 62, 0.15);
 }
 
 .form-group textarea {
